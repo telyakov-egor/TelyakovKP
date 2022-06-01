@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpFKPTelyakov.glavn"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpFKPTelyakov"
+        mc:Ignorable="d"
+         Title="Главная" Height="394.688" Width="592.812" WindowStartupLocation="CenterScreen">
+    <Viewbox Stretch="UniformToFill">
+        <Grid Background="#FF3E5667" Height="368" Width="592">
+            <Button x:Name="btnNewZayav" Style="{DynamicResource stBtn}" Content="Новое заявление" HorizontalAlignment="Left" Margin="391,26,0,0" VerticalAlignment="Top" Width="167" FontWeight="Bold" Click="btnNewZayav_Click"/>
+            <Button x:Name="btnSpicokAbit" Style="{DynamicResource stBtn1}" Content="Список абитуриентов" HorizontalAlignment="Left" Margin="30,80,0,0" VerticalAlignment="Top" Width="204"   Click="BtnSpicokAbit_Click" />
+            <Button x:Name="btnSpisokSpec" Style="{DynamicResource stBtn1}" Content="Список специальностей" HorizontalAlignment="Left" Margin="26,126,0,0" VerticalAlignment="Top" Width="228" Click="BtnSpisokSpec_Click"/>
+            <Button x:Name="btnReitingSpisok" Style="{DynamicResource stBtn1}" Content="Составить рейтинговые списки" HorizontalAlignment="Left" Margin="26,172,0,0" VerticalAlignment="Top" Width="291" Click="btnReitingSpisok_Click"/>
+        </Grid>
+    </Viewbox>
+</Window>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="telyakovKP" Class="dcAbiturDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=wsr;Initial Catalog=telyakovKP;User ID=telyakovKP" SettingsObjectName="WpFKPTelyakov.Properties.Settings" SettingsPropertyName="db" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Abityrients" Member="Abityrients">
+    <Type Name="Abityrients">
+      <Column Name="[ID abit]" Member="ID_abit" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="[kod LD]" Member="kod_LD" Type="System.String" DbType="NVarChar(255) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Familiy" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="Otchestvo" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="Pol" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="[Data rozdeniy]" Member="Data_rozdeniy" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="Phone" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="Snils" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="[Vibor special]" Member="Vibor_special" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

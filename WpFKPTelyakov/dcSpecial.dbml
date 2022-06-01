@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="telyakovKP" Class="dcSpecialDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=wsr;Initial Catalog=telyakovKP;User ID=telyakovKP" SettingsObjectName="WpFKPTelyakov.Properties.Settings" SettingsPropertyName="db" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Specialnocti" Member="Specialnocti">
+    <Type Name="Specialnocti">
+      <Column Name="[Id spec]" Member="Id_spec" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="[Kod specialnosti]" Member="Kod_specialnosti" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="[Name special]" Member="Name_special" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="[Opisanie special]" Member="Opisanie_special" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="[Abbrev spec]" Member="Abbrev_spec" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="[kolvo zauav]" Member="kolvo_zauav" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

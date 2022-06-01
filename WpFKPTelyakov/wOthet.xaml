@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpFKPTelyakov.wOthet"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpFKPTelyakov"
+        mc:Ignorable="d"
+        Title="Отчёты" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid Background="#FF3E5667">
+        <Button x:Name="btnOtshetAbit" Style="{DynamicResource stBtn1}" Content="Составить отчет обо всех абитуриентах" HorizontalAlignment="Left" Margin="30,54,0,0" VerticalAlignment="Top" Width="372" Click="BtnOtshetAbit_Click" />
+        <Button x:Name="btnOtshReiting" Style="{DynamicResource stBtn1}" Content="Составить рейтинговые списки по специальностям" HorizontalAlignment="Left" Margin="32,112,0,0" VerticalAlignment="Top" Width="478" Click="BtnOtshReiting_Click" />
+        <Button x:Name="btnNazad" Style="{DynamicResource stBtn1}" Content="Назад" HorizontalAlignment="Left" Margin="12,377,0,0" VerticalAlignment="Top" Width="75" Click="btnNazad_Click" FontSize="16"/>
+    </Grid>
+</Window>

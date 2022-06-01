@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="telyakovKP" Class="dcAdresAbitDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=wsr;Initial Catalog=telyakovKP;User ID=telyakovKP" SettingsObjectName="WpFKPTelyakov.Properties.Settings" SettingsPropertyName="db" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Adres_Abityrients" Member="Adres_Abityrients">
+    <Type Name="Adres_Abityrients">
+      <Column Name="[ID abityr adres]" Member="ID_abityr_adres" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="[kod LD]" Member="kod_LD" Type="System.String" DbType="NVarChar(255) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="StranaP" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="RegionP" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="RaionP" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="GorodP" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="YlitsaP" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="DomP" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="KvP" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="IndexP" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="StranaF" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="RegionF" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="RaionF" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="GorodF" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="YlitsaF" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="DomF" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="KvF" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="IndexF" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

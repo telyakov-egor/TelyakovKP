@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="telyakovKP" Class="dcDocumLicnostDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=wsr;Initial Catalog=telyakovKP;User ID=telyakovKP" SettingsObjectName="WpFKPTelyakov.Properties.Settings" SettingsPropertyName="db" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Documents_abit" Member="Documents_abit">
+    <Type Name="Documents_abit">
+      <Column Name="[ID abitur]" Member="ID_abitur" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="[Kod LD]" Member="Kod_LD" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Grazdanstvo" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="[Tip docum]" Member="Tip_docum" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="[Seriy num]" Member="Seriy_num" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="[Data vidach]" Member="Data_vidach" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="[Kod podraz]" Member="Kod_podraz" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="[Kem vidan]" Member="Kem_vidan" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="[Mesto rozden]" Member="Mesto_rozden" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

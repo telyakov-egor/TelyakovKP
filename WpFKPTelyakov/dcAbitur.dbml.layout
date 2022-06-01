@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="dcAbitur">
+  <DataContextMoniker Name="/dcAbiturDataContext" />
+  <nestedChildShapes>
+    <classShape Id="00bfa988-dcc0-4896-99d4-ce1c925c4c6b" absoluteBounds="1.75, 2.125, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/dcAbiturDataContext/Abityrients" />
+      <nestedChildShapes>
+        <elementListCompartment Id="335a13e7-5608-400c-8512-117cad48d6c8" absoluteBounds="1.7650000000000001, 2.585, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

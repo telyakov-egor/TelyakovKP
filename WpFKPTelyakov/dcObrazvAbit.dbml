@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="telyakovKP" Class="dcObrazvAbitDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=wsr;Initial Catalog=telyakovKP;User ID=telyakovKP" SettingsObjectName="WpFKPTelyakov.Properties.Settings" SettingsPropertyName="db" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Obrazovanie_Abityr" Member="Obrazovanie_Abityr">
+    <Type Name="Obrazovanie_Abityr">
+      <Column Name="[ID abit ych zav]" Member="ID_abit_ych_zav" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="[Kod LD]" Member="Kod_LD" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="[Tip YZ]" Member="Tip_YZ" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="[Name YZ]" Member="Name_YZ" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="Region" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="[Izych yazik]" Member="Izych_yazik" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="[Vid docum obr]" Member="Vid_docum_obr" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="[Seriy num doc obr]" Member="Seriy_num_doc_obr" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="[Data vidachi obr]" Member="Data_vidachi_obr" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

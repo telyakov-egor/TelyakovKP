@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="dcAdresAbit">
+  <DataContextMoniker Name="/dcAdresAbitDataContext" />
+  <nestedChildShapes>
+    <classShape Id="9e7d9ad3-0d92-4aea-b2d0-d3f046be710f" absoluteBounds="2.125, 2.125, 2, 4.2708154296875">
+      <DataClassMoniker Name="/dcAdresAbitDataContext/Adres_Abityrients" />
+      <nestedChildShapes>
+        <elementListCompartment Id="19d7272c-1dbf-4b17-81dd-517d0e9b465e" absoluteBounds="2.14, 2.585, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
